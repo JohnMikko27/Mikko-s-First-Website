@@ -1,0 +1,135 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.container1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    display: flex;
+    column-gap: 12px;
+    list-style: none;
+
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+}
+
+.header1 img {
+    margin: 8px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+
+}
+
+.main button {
+    width: 80px;  
+    margin-top: 8px;
+    border-radius: 5px;
+
+}
+
+.container2 {
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.uchihas {
+    display: flex;
+    gap: 15px;
+}
+
+.uchihas div {
+    text-align: center;
+}
+
+.container2 img {
+    width: 200px;
+    height: 200px;
+}
+.container3 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: larger;
+}
+
+
+
+.container3 div {
+    margin-top: 8px;
+    margin-left: 250px;
+    font-size: smaller;
+}
+
+.container4 {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin: 50px;
+}
+
+.butts info {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.butt {
+    align-self: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
